@@ -27,14 +27,19 @@ li{
     color: seashell;
 
 }
-p{
-    align-items: left;
-    text-align: right;
-}
+
 article{
     border: 2px solid rgba(233, 156, 156, 0.753);
-    border-radius: 10px;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
 }
-iframe{
-    align-self: center;
+section{
+    border: 2px solid rgba(233, 156, 156, 0.753);
+    border-radius: 15px;
+    text-align: center;
 }
+h2{
+    color: seashell;
+}
+
