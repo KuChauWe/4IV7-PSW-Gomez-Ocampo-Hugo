@@ -1,6 +1,7 @@
 *{
     padding: 0;
     background-color: rgb(38, 70, 83);
+    color: rgb(244, 162, 97);
 }
 
 .main-container{
@@ -22,6 +23,7 @@ h1#texTitulo{
     background-color: rgb(42, 157, 143);
     text-align: center;
     font-size: 3rem;
+    color: rgb(244, 162, 97);
 }
 
 li#listaTitulo{
@@ -36,18 +38,30 @@ li#listaTitulo{
     margin-bottom: 1rem;
     margin-left: 10%;
     margin-right: 10%;
+    color: seashell;
+    padding: .5rem;
 }
 
 nav#listaMenu{
     background-color: rgb(42, 157, 143);
-    margin-top: 1rem;
+    margin-top: .5rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 50%;
-    text-align: left;
-    display: inline-block;
+    margin-right: 17rem;
+    margin-left: 17rem;
+    text-align: center;
+    display: inline-flex;
     color: seashell;
-    padding: 1rem;
-    font-size: 2rem;
+    padding: .5rem;
+    font-size: 1rem;
     width: 70%;
+}
+
+a:link{
+    color: rgb(244, 162, 97);
+    background-color: rgb(42, 157, 143);
+}
+
+a:visited{
+    color: rgb(233, 196, 106);
+    background-color: rgb(42, 157, 143);
 }
